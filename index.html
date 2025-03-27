@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,paper,scissor</title>
+    <link rel="Stylesheet" href="Styling.css">
+</head>
+<body>
+    <!-- Main heading -->
+    <h1 id="main_heading">Rock,paper and scissors</h1>
+    <!-- main screen div -->
+    <div id="main_screen">
+        <!-- Game area div -->
+        <div id="game_area">
+            <div id="game_buttons">
+                <div id="rock" class="game_btns"></div>
+                <div id="paper" class="game_btns"></div>
+                <div id="scissors" class="game_btns"></div>
+            </div>
+            <!-- Score board -->
+            <div id="score_board">
+                <!-- Player score -->
+                <div id="player_score_container">
+                    <p class="player_score" id="player">0</p>
+                    <p class="player_score">Player</p>
+                </div>
+                <!-- Comp score -->
+                <div id="comp_score_container">
+                    <p class="comp_score" id="comp">0</p>
+                    <p class="comp_score">Comp</p>
+                </div>
+            </div>
+            <div id="message_box">
+               <p id="message"><u>Start the game</u></p>
+            </div>
+            <div id = "reset_button_area">
+                <button id="reset_button">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>   
+</body>
+</html>

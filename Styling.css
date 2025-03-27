@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body */
+body{
+    background-color: navy;  
+}
+/* Styling the main heading */
+#main_heading{
+    color: white;
+    background-color: navy;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: white solid 2px;
+    font-family: cursive;
+    overflow: hidden;
+}
+/* main screen */
+#main_screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* game area */
+#game_area{
+    border: whitesmoke 3px solid;
+    border-radius: 7px;
+    width: 17cm ;
+    height: 17cm; 
+}
+/* game buttons */
+.game_btns{
+    border: 2px white solid;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 0.5cm;
+    border-radius: 50%;
+}
+.game_btns:hover{
+    opacity: 0.5;
+    border: 2px navy solid;
+    cursor: pointer;
+}
+#game_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#rock{
+    background-image: url(rock.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#paper{
+    background-image: url(paper.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#scissors{
+    background-image: url(scissors.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Score board */
+#score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2cm;
+    margin-top: 2cm;
+}
+.player_score, .comp_score{
+    color: white;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+/* Message box */
+#message_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1cm;
+}
+#message{
+    color: white;
+    font-size: x-large;
+    font-family: cursive;
+}
+/* Reset button */
+#reset_button_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5cm;
+}
+#reset_button{
+    display: inline-block;
+    font-family: cursive;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+}
+#reset_button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
